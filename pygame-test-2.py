@@ -32,6 +32,7 @@ def main():
             x = 240
             y = 100
             for c in list(heure):
+                x+=1
                 if c==':':
                     screen.blit(img2points, (x, y))
                     x += img2points.get_width()
